@@ -17,6 +17,8 @@ public class SwaggerConfig {
   @Value("${joedayz.openapi.dev-url}")
   private String devUrl;
 
+  //new change
+
   @Value("${joedayz.openapi.prod-url}")
   private String prodUrl;
   @Bean
